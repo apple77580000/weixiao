@@ -13,11 +13,11 @@
 
 [rewrite_local]
 
-^http:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip url script-response-body 111.js
+^http:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip url script-response-body https://raw.githubusercontent.com/apple77580000/weixiao/main/kwyr.js
 
-^https:\/\/audiobookpay\.kuwo\.cn\/a.p url script-response-body 111.js
+^https:\/\/audiobookpay\.kuwo\.cn\/a.p url script-response-body https://raw.githubusercontent.com/apple77580000/weixiao/main/kwyr.js
 
-^http:\/\/tingshu\.kuwo\.cn\/v2\/api\/user\/info url script-response-body 111.js
+^http:\/\/tingshu\.kuwo\.cn\/v2\/api\/user\/info url script-response-body https://raw.githubusercontent.com/apple77580000/weixiao/main/kwyr.js
 
 
 [mitm] 
