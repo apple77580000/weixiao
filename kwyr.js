@@ -47,4 +47,9 @@ body = body.replace(/luxAutoPayUser\":"\d+/g,'luxAutoPayUser":"1');
 body = body.replace(/svipAutoPayUser\":"\d+/g,'svipAutoPayUser":"1');
 body = body.replace(/isYearUser\":"\d+/g,'isYearUser":"1');
 body = body.replace(/vipmAutoPayUser\":"\d+/g,'vipmAutoPayUser":"1');
+body = body.replace(/limitfree\":"\d+/g,'limitfree":"1');
+body = body.replace(/playright\":"\d+/g,'playright":"1');
+body = body.replace(/downright\":"\d+/g,'downright":"1');
+body = body.replace(/policytype\":"\d+/g,'policytype":"1');
+
 $done(body);
